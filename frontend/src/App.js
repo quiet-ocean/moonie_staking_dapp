@@ -9,15 +9,12 @@ class App extends Component {
     render() {
         return (
             <>
-                {/* <Loader /> */}
-
                 <BrowserRouter basename="">
                     <Switch>
                         <Route path="/stake" component={Stake} />
                         <Route path="/" component={Landing} />
                     </Switch>
                 </BrowserRouter>
-
                 <Footer />
             </>
         );
